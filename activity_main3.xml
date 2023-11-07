@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/swimming"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/swimmingImg"
+        />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="السباحة"
+        android:textSize="26sp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/swimmingImg"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/swimmingTxt"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/gun"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/swimmingTxt"
+        android:layout_marginTop="10dp"
+        android:id="@+id/gunImg"
+        />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="الرماية"
+        android:textSize="26sp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/gunImg"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/gunTxt"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/horse"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/gunTxt"
+        android:layout_marginTop="10dp"
+        android:id="@+id/horseImg"
+        />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="ركوب الخيل"
+        android:textSize="26sp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/horseImg"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/horseTxt"
+        />
+
+</RelativeLayout>

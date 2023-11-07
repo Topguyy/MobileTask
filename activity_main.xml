@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity" >
+  <ImageView
+      android:layout_height="150dp"
+      android:layout_width="150dp"
+      android:src="@drawable/loginimg"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="150dp"
+      android:id="@+id/LoginImg"
+  />
+  <TextView
+      android:layout_height="wrap_content"
+      android:layout_width="wrap_content"
+      android:text="Sign in"
+      android:textSize="34sp"
+      android:textColor="@color/black"
+      android:textStyle="bold"
+      android:layout_centerHorizontal="true"
+      android:layout_below="@+id/LoginImg"
+      android:layout_marginTop="5dp"
+      android:id="@+id/SignInTxt"
+    />
+    <EditText
+        android:layout_width="275dp"
+        android:layout_height="48dp"
+        android:text="  Email or UserName"
+        android:textColor="#A9A9A9"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/SignInTxt"
+        android:layout_marginTop="10dp"
+        android:background="#D3D3D3"
+        android:id="@+id/UserName"
+        />
+    <EditText
+        android:layout_width="275dp"
+        android:layout_height="48dp"
+        android:text="  Password"
+        android:textColor="#A9A9A9"
+        android:selectAllOnFocus="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/UserName"
+        android:layout_marginTop="15dp"
+        android:background="#D3D3D3"
+        android:id="@+id/userPassword"
+        />
+    <Button
+        android:layout_width="275dp"
+        android:layout_height="48dp"
+        android:text="Sign in"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:selectAllOnFocus="true"
+        android:backgroundTint="@color/labany"
+        android:layout_below="@id/userPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:id="@+id/SignInbtn"
+        />
+</RelativeLayout>
